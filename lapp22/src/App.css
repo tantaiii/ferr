@@ -1,0 +1,66 @@
+/* Màu nền tối đặc biệt cho Navbar  */
+.bg-dark-custom {
+  background-color: #1a1a1a !important;
+  border-bottom: 1px solid #333;
+}
+
+/* Định dạng các nút chữ điều hướng Home, About, Contact */
+.nav-list-link {
+  color: #a0a0a0;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 8px 12px;
+  display: inline-block;
+  transition: color 0.2s ease;
+}
+
+.nav-list-link:hover, .nav-list-link.active {
+  color: #ffffff;
+}
+
+/* Nút tìm kiếm  */
+.btn-danger-custom {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.btn-danger-custom:hover {
+  background-color: #bd2130;
+}
+
+/* Các thuộc tính cũ giữ nguyên */
+.font-serif {
+  font-family: 'Georgia', serif;
+}
+
+.pizza-site {
+  background-color: #2c2c2c !important;
+  background-image: radial-gradient(#3a3a3a 10%, transparent 11%);
+  background-size: 10px 10px;
+}
+
+.bg-caption {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 0;
+}
+
+.btn-navy {
+  background-color: #343a40;
+  border: none;
+}
+
+.form-control-dark {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 10px 15px;
+}

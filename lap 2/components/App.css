@@ -1,0 +1,47 @@
+/* Đổi font chữ mang phong cách cổ điển/sang trọng giống ảnh */
+.font-serif {
+  font-family: 'Georgia', serif;
+}
+
+/* Màu nền tối có vân hoặc màu xám đậm đặc trưng của giao diện nhà hàng */
+.pizza-site {
+  background-color: #2c2c2c !important;
+  background-image: radial-gradient(#3a3a3a 10%, transparent 11%);
+  background-size: 10px 10px;
+}
+
+/* Lớp phủ mờ màu tối lên caption của banner để dễ đọc chữ */
+.bg-caption {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 0;
+}
+
+/* Nút bấm màu xanh đen đặc trưng trên các thẻ Pizza */
+.btn-navy {
+  background-color: #343a40;
+  border: none;
+  transition: background 0.2s ease;
+}
+
+.btn-navy:hover {
+  background-color: #212529;
+}
+
+/* Tùy chỉnh giao diện các ô nhập liệu (Form inputs) */
+.form-control-dark {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.form-control-dark::placeholder {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+/* Định dạng chữ tiêu đề sản phẩm */
+.card-title {
+  font-family: 'Georgia', serif;
+}
